@@ -1,7 +1,7 @@
 import { Link } from 'react-router';
 
 const FilmCard = ({ film }) => (
-  <div className="flex border p-4 rounded shadow items-center">
+  <div className="flex border p-4 rounded shadow items-center hover:shadow-md">
     <img
       src={film.image}
       alt={`${film.title} Banner`}
