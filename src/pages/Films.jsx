@@ -11,7 +11,7 @@ const Films = () => {
   // When data is fetched, store it in Zustand
   useEffect(() => {
     if (data) {
-      console.log('Fetched data:', data);
+      //console.log('Fetched data:', data);
       setFilms(data.data);
     }
   }, [data, setFilms]);

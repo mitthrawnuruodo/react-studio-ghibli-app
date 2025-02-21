@@ -2,7 +2,6 @@ import { Link } from 'react-router';
 
 const FilmCard = ({ film }) => (
   <div className="flex border p-4 rounded shadow items-center">
-    {/* Portrait thumbnail on the left */}
     <img
       src={film.image}
       alt={`${film.title} Banner`}

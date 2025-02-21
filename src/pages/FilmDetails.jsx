@@ -17,9 +17,7 @@ const FilmDetails = () => {
 
   return (
     <div className="p-4">
-      {/* Details section with portrait image and text side-by-side */}
       <div className="flex flex-col md:flex-row">
-        {/* Portrait image */}
         <img
           src={film.image}
           alt={`${film.title} Poster`}
