@@ -21,7 +21,7 @@ const Films = () => {
 
   return (
     <>
-      <h1>Favourites</h1>
+      <h1>Films</h1>
       <div className="p-4 grid grid-cols-2 md:grid-cols-3 gap-4">
         {data.data.map((film) => (
           <FilmCard key={film.id} film={film} />
