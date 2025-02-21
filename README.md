@@ -43,3 +43,6 @@ react-studio-ghibli-app/
         └── NotFound.jsx   // 404 page for any unmatched routes
 ```
 
+## Published version
+
+https://react-studio-ghibli-app.netlify.app/
