@@ -16,7 +16,7 @@ const Films = () => {
     }
   }, [data, setFilms]);
 
-  if (loading) return <p>Loading films...</p>;
+  if (loading) return <p className="h-6 w-6 border-b-2 animate-spin rounded-full"></p>;
   if (error) return <p>Error loading films: {error.message}</p>;
 
   return (
