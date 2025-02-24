@@ -5,7 +5,7 @@ const Favourites = () => {
   const favourites = useFilmStore((state) => state.favourites);
   return (
     <div className="p-4">
-      <h1>Favourites</h1>
+      <h1 className="text-3xl">Favourites</h1>
       {favourites.length === 0 ? (
         <p>No favourites added yet.</p>
       ) : (
