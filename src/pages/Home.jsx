@@ -20,7 +20,7 @@ const Home = () => {
         </div>
       </section>
       <section className="p-4">
-        <h2>My favourites</h2>
+        <h2 className="text-2xl">My favourites</h2>
         {favourites.length === 0 ? (
           <div>
             <p>You have no favourite films yet.</p>
