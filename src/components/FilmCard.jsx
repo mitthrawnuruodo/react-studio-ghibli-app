@@ -1,7 +1,7 @@
 import { Link } from 'react-router';
 
 const FilmCard = ({ film }) => (
-  <div className="flex border p-4 rounded shadow items-center hover:shadow-lg">
+  <div className="relative flex border p-4 rounded shadow items-center hover:shadow-lg">
     <img
       src={film.image}
       alt={`${film.title} Banner`}
@@ -10,7 +10,7 @@ const FilmCard = ({ film }) => (
     <div>
       <h2 className="text-lg font-bold">{film.title}</h2>
       <p>{film.release_date}</p>
-      <Link to={`/films/${film.id}`} className="text-blue-500 mt-2 inline-block">
+      <Link to={`/films/${film.id}`} className="text-teal-800 mt-2 inline-block hover:underline after:absolute after:inset-0 after:content-['']">
         Read More
       </Link>
     </div>
