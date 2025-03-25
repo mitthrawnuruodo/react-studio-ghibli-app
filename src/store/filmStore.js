@@ -15,7 +15,7 @@ const useFilmStore = create(
             ? state.favourites
             : [...state.favourites, film],
         })),
-      // Optionally, remove a favourite by id
+      // Remove a favourite by id
       removeFavourite: (filmId) =>
         set((state) => ({
           favourites: state.favourites.filter((f) => f.id !== filmId),
