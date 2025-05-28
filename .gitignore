@@ -9,7 +9,6 @@ dist/
 
 # Temporary files and cache
 .vite/
-.vscode/
 *.log
 
 # System files
